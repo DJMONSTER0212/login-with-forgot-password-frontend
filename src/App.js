@@ -15,10 +15,10 @@ function App() {
       
       <Routes>
         <Route exact path='/' element={<Login/>} />
-        <Route  path='/sign-up' element={<Signup />} />
-        <Route  path='/home' element={<Home/> } />
-        <Route  path='/forgot' element={<ForgotPassword/> } />
-        <Route  path='/reset-password/:id/:token' element={<PasswordReset/> } />
+        <Route exact path='/sign-up' element={<Signup />} />
+        <Route exact path='/home' element={<Home/> } />
+        <Route exact  path='/forgot' element={<ForgotPassword/> } />
+        <Route exact path='/reset-password/:id/:token' element={<PasswordReset/> } />
       </Routes>
       </div>
   );
